@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 // if (process.env.NODE_ENV === 'production') {
-    const build_path = path.join(__dirname, '../client', 'build')
+    const build_path = path.join(__dirname, 'client', 'build')
     app.use(express.static(build_path))
     app.get('*', (req, res) => {
         res.sendFile(path.join(build_path, 'index.html'))
