@@ -1,0 +1,11 @@
+.course-details{
+    min-height: 300px !important;
+    background: rgb(255, 255, 255) !important;
+}
+.course-details .CD{
+    min-height: 320px !important;
+    background: rgb(241, 241, 241) !important;
+}
+.mlist li {
+    list-style: decimal !important;
+}
